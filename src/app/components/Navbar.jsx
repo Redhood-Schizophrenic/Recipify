@@ -22,7 +22,7 @@ const Navbar = () => {
 							<Home className="w-4 h-4" />
 							Home
 						</a>
-						<a href="/profile" className="text-white/80 hover:text-white flex items-center gap-2">
+						<a href="/recipes" className="text-white/80 hover:text-white flex items-center gap-2">
 							<Book className="w-4 h-4" />
 							Recipes
 						</a>
@@ -63,14 +63,17 @@ const Navbar = () => {
 			{isMenuOpen && (
 				<div className="absolute md:hidden bg-black/60 backdrop-blur-lg w-full">
 					<div className="px-2 pt-2 pb-3 space-y-1">
-						<a href="#" className="text-white/80 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+						<a href="/" className="text-white/80 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 							Home
 						</a>
-						<a href="#" className="text-white/80 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+						<a href="/recipes" className="text-white/80 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 							Recipes
 						</a>
-						<a href="#" className="text-white/80 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+						<a href="/about" className="text-white/80 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 							About
+						</a>
+						<a href="/Profile" className="text-white/80 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+							Profile
 						</a>
 					</div>
 				</div>

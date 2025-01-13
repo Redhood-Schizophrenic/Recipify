@@ -51,7 +51,7 @@ function App() {
 
 	return (
 		<div
-			className="min-h-screen bg-cover bg-center bg-no-repeat transition-all duration-500"
+			className="min-h-screen bg-cover bg-center bg-no-repeat transition-all duration-500 overflow-y-hidden"
 			style={{ backgroundImage: `url(${recipes[currentIndex].image})` }}
 		>
 			{/* Overlay */}
